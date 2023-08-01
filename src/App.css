@@ -1,0 +1,56 @@
+/* App.css */
+
+/* Set the background image for the weather app */
+.wetherBg {
+  background: url("https://www.accuweather.com/images/hero/4/1440x450.jpg");
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #222222; /* Dark background color outside the wetherResultBox */
+}
+
+/* Heading style */
+.heading {
+  color: white;
+  font-weight: 700;
+}
+
+.resultBox{
+  background-color: black;
+  height: 100vh;
+}
+
+/* Weather result box style */
+.wetherResultBox {
+  margin: auto;
+  background-color: #202020; /* Dark gray background inside the wetherResultBox */
+  width: 500px;
+  height: 300px;
+}
+
+/* Weather icon style */
+.weatherdescription{
+  font-size: 35px;
+}
+.weathorIcon {
+  margin-top: 2rem;
+  width: 100px;
+  height: 100px;
+}
+
+/* Weather city name style */
+.weathorCity {
+  font-size: 35px;
+  color: #f57c00; /* Orange color for the city name */
+}
+
+/* Weather temperature style */
+.weathorTemp {
+  font-size: 55px;
+  font-weight: 700;
+  color: #42a5f5; /* Blue color for the temperature */
+}
